@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import './Signin.css';
-
+// This component using for login
 function Signin() {
   const [userData, setUserData] = useState({ username: "", password: "" });
   const [errorMessage, setErrorMessage] = useState({ value: "" });
