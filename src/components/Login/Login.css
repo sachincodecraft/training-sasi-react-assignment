@@ -1,0 +1,238 @@
+.home-side-banner {
+  height: 716px;
+  width: 100%;
+}
+.page {
+  width: 100%;
+}
+.row {
+  max-width: 100%;
+}
+.equal {
+  width: 50%;
+  float: left;
+}
+.box {
+  box-shadow: none;
+}
+h1 {
+  border-bottom: none;
+}
+.column.is-offset-3 {
+  margin-left: 0%;
+}
+.side-text {
+  margin-top: 130px;
+  margin-left: 30px;
+}
+.side img {
+  height: 10px;
+  float: left;
+  padding-right: 5px;
+  border: none !important;
+}
+.forgot-pwd {
+  font-size: 11px;
+  position: absolute;
+  right: 420px;
+}
+.email-icon {
+  text-align: right;
+  display: block;
+  position: relative;
+}
+.email-icon svg {
+  position: relative;
+  top: 24px;
+  right: 10px;
+}
+.email-icon span {
+  position: relative;
+  top: 2px;
+  right: 350px;
+}
+.control svg {
+  position: relative;
+  top: 33px;
+  right: 10px;
+  z-index: 123;
+  margin-left: 293px;
+}
+.button.is-info {
+  background-color: black;
+  top: 50px;
+}
+.button.is-fullwidth {
+  width: 50%;
+}
+.field:not(:last-child) {
+  margin-bottom: 40px;
+}
+.error path {
+  fill: red;
+}
+.active path {
+  fill: blue;
+}
+.inactive path {
+  fill: gray;
+}
+
+@media only screen and (max-width: 1286px) {
+  .control svg {
+    position: absolute !important;
+    top: 10px !important;
+  }
+  .forgot-pwd {
+    position: absolute !important;
+    right: 40px !important;
+  }
+  .button.is-fullwidth {
+    width: 40% !important;
+  }
+  .column.is-6 {
+    width: 100% !important;
+  }
+  .button.is-fullwidth {
+    width: 30% !important;
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .control svg {
+    position: absolute !important;
+    top: 10px !important;
+  }
+  .forgot-pwd {
+    position: absolute !important;
+    right: 40px !important;
+  }
+  .button.is-fullwidth {
+    width: 40% !important;
+  }
+  .column.is-6 {
+    width: 100% !important;
+  }
+  .button.is-fullwidth {
+    width: 30% !important;
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1028px) {
+  .control svg {
+    position: absolute !important;
+    top: 10px !important;
+  }
+  .forgot-pwd {
+    position: absolute !important;
+    right: 40px !important;
+  }
+  .button.is-fullwidth {
+    width: 40% !important;
+  }
+  .column.is-6 {
+    width: 100% !important;
+  }
+  .button.is-fullwidth {
+    width: 30% !important;
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .equal {
+    width: 100% !important;
+  }
+  .home-side-banner {
+    height: 400px !important;
+  }
+  .control svg {
+    margin-left: 300px !important;
+  }
+  .forgot-pwd {
+    position: absolute !important;
+    right: 40px !important;
+  }
+  .button.is-fullwidth {
+    width: 35%;
+    top: 50px;
+  }
+  .side-text {
+    margin-top: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .equal {
+    width: 100% !important;
+  }
+  .home-side-banner {
+    height: 400px !important;
+  }
+  .side-text {
+    margin-top: 30px !important;
+    margin-left: 30px !important;
+  }
+  .control svg {
+    position: absolute !important;
+    top: 10px !important;
+  }
+  .forgot-pwd {
+    position: absolute !important;
+    right: 40px !important;
+  }
+}
+/* @media only screen and (max-width: 414px) {
+  .control img {
+    margin-left: 333px !important;
+  }
+  .forgot-pwd {
+    margin-left: 250px !important;
+  }
+} */
+
+@media only screen and (max-width: 384px) {
+  .home-side-banner {
+    height: 340px !important;
+    width: 100% !important;
+  }
+  .side-text {
+    margin-top: 30px !important;
+    margin-left: 30px !important;
+  }
+  .box {
+    padding: 8px !important;
+  }
+  .control svg {
+    position: absolute !important;
+    top: 10px !important;
+  }
+  .forgot-pwd {
+    position: absolute !important;
+    right: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .control svg {
+    position: absolute !important;
+    top: 10px !important;
+  }
+  .forgot-pwd {
+    position: absolute !important;
+    right: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .control svg {
+    position: absolute !important;
+    top: 10px !important;
+  }
+  .forgot-pwd {
+    position: absolute !important;
+    right: 40px !important;
+  }
+}
